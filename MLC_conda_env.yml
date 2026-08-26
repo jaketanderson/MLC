@@ -1,0 +1,31 @@
+name: MLC
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # Basics and plotting
+  - black
+  - git
+  - ipywidgets=8.1.1
+  - isort
+  - jupyterlab=4.0.10
+  - pip:
+      - jupyterlab-code-formatter
+  - matplotlib
+  - nglview==3.1.0
+  - notebook=7.0.6
+  - plotly
+  - seaborn
+  # Computing
+  - numba
+  - numpy
+  - scikit-learn
+  - scipy
+  - sympy
+  # MD and visualization
+  - mdanalysis
+  - openff-toolkit
+  - openmm
+  - openmmforcefields
+  - pymol-open-source
+  - rdkit
